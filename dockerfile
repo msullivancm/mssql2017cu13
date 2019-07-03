@@ -1,0 +1,4 @@
+FROM microsoft/mssql-server-linux:2017-CU13
+EXPOSE 1433
+ENV SA_PASSWORD: "P@ssw0rd2019"
+ENV ACCEPT_EULA: "Y"
